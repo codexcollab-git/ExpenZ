@@ -1,0 +1,113 @@
+name: balance_checker
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icons
+  cupertino_icons: ^1.0.6
+  font_awesome_flutter: ^10.7.0
+
+  # State Management
+  flutter_bloc: ^8.1.5
+
+  # Others
+  sms_advanced: ^1.1.0
+  flutter_hooks: ^0.20.5
+  get_it: ^7.7.0
+  floor: ^1.5.0
+  sqflite: ^2.3.3+1
+  equatable: ^2.0.5
+  oktoast: ^3.4.0
+  permission_handler: ^11.3.1
+  app_settings: ^5.1.1
+  shared_preferences: ^2.2.3
+  lottie: ^3.1.2
+  flutter_exit_app: ^1.1.2
+  shimmer: ^3.0.0
+  fl_chart: ^0.68.0
+  calendar_date_picker2: ^1.0.6
+  flutter_launcher_icons: ^0.13.1
+
+  flutter_native_splash: ^2.2.19
+
+  # Gson Converted
+  dart_json_mapper: ^2.2.12+1
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  floor_generator: ^1.5.0
+  build_runner: ^2.4.10
+  lints: ^4.0.0
+
+
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+  color: "#FFFFFF"
+  image: assets/images/appiconmain.png
+
+  android_12:
+    image: assets/images/appiconmain.png
+    icon_background_color: "#ffffff"
+    image_dark: assets/images/appiconmain.png
+    icon_background_color_dark: "#ffffff"
+
+    web: false
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/mainicon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/animation/
+
+  fonts:
+    - family: RedditSans
+      fonts:
+        - asset: assets/fonts/reddit_sans_extra_light.ttf
+          weight: 200
+        - asset: assets/fonts/reddit_sans_light.ttf
+          weight: 300
+        - asset: assets/fonts/reddit_sans_regular.ttf
+          weight: 400
+        - asset: assets/fonts/reddit_sans_medium.ttf
+          weight: 500
+        - asset: assets/fonts/reddit_sans_semi_bold.ttf
+          weight: 600
+        - asset: assets/fonts/reddit_sans_bold.ttf
+          weight: 700
+    - family: RedditSansItalic
+      fonts:
+        - asset: assets/fonts/reddit_sans_extra_light_italic.ttf
+          weight: 200
+        - asset: assets/fonts/reddit_sans_light_italic.ttf
+          weight: 300
+        - asset: assets/fonts/reddit_sans_regular_italic.ttf
+          weight: 400
+        - asset: assets/fonts/reddit_sans_medium_italic.ttf
+          weight: 500
+        - asset: assets/fonts/reddit_sans_semi_bold_italic.ttf
+          weight: 600
+        - asset: assets/fonts/reddit_sans_bold_italic.ttf
+          weight: 700
+    - family: TextMeOne
+      fonts:
+        - asset: assets/fonts/text_me_one_regular.ttf
