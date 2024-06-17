@@ -34,8 +34,8 @@ dependencies:
   fl_chart: ^0.68.0
   calendar_date_picker2: ^1.0.6
   flutter_launcher_icons: ^0.13.1
-
   flutter_native_splash: ^2.2.19
+  change_app_package_name: ^1.2.0
 
   # Gson Converted
   dart_json_mapper: ^2.2.12+1
